@@ -1,0 +1,149 @@
+{
+    "torque_curve": [
+        {
+            "x": 0.0,
+            "y": 400.0
+        },
+        {
+            "x": 1890.7607421875,
+            "y": 500.0
+        },
+        {
+            "x": 5729.57763671875,
+            "y": 400.0
+        }
+    ],
+    "max_rpm": 10000.0,
+    "moi": 1.0,
+    "damping_rate_full_throttle": 0.15000000596046448,
+    "damping_rate_zero_throttle_clutch_engaged": 2.0,
+    "damping_rate_zero_throttle_clutch_disengaged": 0.3499999940395355,
+    "use_gear_autobox": true,
+    "gear_switch_time": 0.5,
+    "clutch_strength": 0.6000000238418579,
+    "final_ratio": 4.0,
+    "forward_gears": [
+        {
+            "ratio": 2.928999900817871,
+            "down_ratio": 0.20000000298023224,
+            "up_ratio": 0.3499999940395355
+        },
+        {
+            "ratio": 2.055999994277954,
+            "down_ratio": 0.20000000298023224,
+            "up_ratio": 0.3499999940395355
+        },
+        {
+            "ratio": 1.61899995803833,
+            "down_ratio": 0.20000000298023224,
+            "up_ratio": 0.3499999940395355
+        },
+        {
+            "ratio": 1.3329999446868896,
+            "down_ratio": 0.20000000298023224,
+            "up_ratio": 0.3499999940395355
+        },
+        {
+            "ratio": 1.1540000438690186,
+            "down_ratio": 0.20000000298023224,
+            "up_ratio": 0.3499999940395355
+        },
+        {
+            "ratio": 1.0369999408721924,
+            "down_ratio": 0.20000000298023224,
+            "up_ratio": 0.3499999940395355
+        }
+    ],
+    "mass": 166.0,
+    "drag_coefficient": 0.30000001192092896,
+    "center_of_mass": {
+        "x": 0.19999998807907104,
+        "y": 0.0,
+        "z": -0.3999999761581421
+    },
+    "steering_curve": [
+        {
+            "x": 0.0,
+            "y": 1.0
+        },
+        {
+            "x": 20.0,
+            "y": 0.5
+        },
+        {
+            "x": 40.0,
+            "y": 0.30000001192092896
+        },
+        {
+            "x": 80.0,
+            "y": 0.20000000298023224
+        }
+    ],
+    "wheels": [
+        {
+            "tire_friction": 3.5,
+            "damping_rate": 0.25,
+            "max_steer_angle": 60.0,
+            "radius": 32.0,
+            "max_brake_torque": 1500.0,
+            "max_handbrake_torque": 0.0,
+            "lat_stiff_max_load": 2.0,
+            "lat_stiff_value": 17.0,
+            "long_stiff_value": 1000.0,
+            "position": {
+                "x": 6018.0439453125,
+                "y": -16547.34765625,
+                "z": 431.8230895996094
+            }
+        },
+        {
+            "tire_friction": 3.5,
+            "damping_rate": 0.25,
+            "max_steer_angle": 60.0,
+            "radius": 32.0,
+            "max_brake_torque": 1500.0,
+            "max_handbrake_torque": 0.0,
+            "lat_stiff_max_load": 2.0,
+            "lat_stiff_value": 17.0,
+            "long_stiff_value": 1000.0,
+            "position": {
+                "x": 6058.0439453125,
+                "y": -16547.34765625,
+                "z": 431.8230895996094
+            }
+        },
+        {
+            "tire_friction": 3.5,
+            "damping_rate": 0.25,
+            "max_steer_angle": 0.0,
+            "radius": 32.0,
+            "max_brake_torque": 1500.0,
+            "max_handbrake_torque": 3000.0,
+            "lat_stiff_max_load": 2.0,
+            "lat_stiff_value": 17.0,
+            "long_stiff_value": 1000.0,
+            "position": {
+                "x": 6058.0439453125,
+                "y": -16408.69921875,
+                "z": 431.8228454589844
+            }
+        },
+        {
+            "tire_friction": 3.5,
+            "damping_rate": 0.25,
+            "max_steer_angle": 0.0,
+            "radius": 32.0,
+            "max_brake_torque": 1500.0,
+            "max_handbrake_torque": 3000.0,
+            "lat_stiff_max_load": 2.0,
+            "lat_stiff_value": 17.0,
+            "long_stiff_value": 1000.0,
+            "position": {
+                "x": 6018.0439453125,
+                "y": -16408.69921875,
+                "z": 431.8228454589844
+            }
+        }
+    ],
+    "use_sweep_wheel_collision": false
+}
